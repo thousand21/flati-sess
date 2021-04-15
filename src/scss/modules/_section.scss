@@ -1,0 +1,170 @@
+section{
+    
+         background-color:rgb(224, 223, 223);
+        
+        
+      img{
+              width: 100%;
+      }
+    
+
+}
+#txtbanner{
+        display:inline-block;
+        justify-content:center;
+        text-align: center;
+       /*  border: solid; */
+        width: 100%;
+        p{
+                width: 40%;
+                margin-left: 30%;
+        }
+
+        .span1{
+                background-color: dodgerblue;
+                color: white;
+        }
+        .span2{
+                font-weight: bold;
+                color: dodgerblue;
+        }
+        .span3{
+                font-weight: bold; 
+        }
+
+
+}
+.section1{
+        margin-bottom: 10px;
+}
+.section2{
+        margin-top: 20px;
+        background-color: rgb(230, 230, 230);
+        padding-top: 10px;
+        .rangee1{
+                
+                display: flex;
+                justify-content:space-around;
+                margin-bottom: 20px;
+                
+                
+                .img{
+                        padding-top: 10px;
+                        
+                        background-color:rgb(198, 199, 200) ;
+                        text-align: center;
+                        width: 20%;
+                        div{
+                                i{
+                                        border: solid white;
+                                        border-radius: 100%;
+                                        background-color: white;
+                                        
+                                }
+                        }
+                        p:first-of-type{
+                          color: dodgerblue;      
+                        }
+                        
+                }
+                
+        }
+
+}
+i{
+        border: solid white;
+        border-radius: 100%;
+        background-color: white;
+        padding: 10px;
+}
+
+.rangee2{
+        display: flex;
+        justify-content: left;
+        .rangeetxt{
+                
+                margin-left: 40%;
+        }
+        div{
+                width: 50%;
+                text-align: center;
+        }
+        
+        
+        p{
+                width: 80%;
+                text-align: center;
+               /*  margin-left: 35%; */
+
+        }
+        
+        .rangee2droite{
+                
+                display: flex;
+                /* border: solid; */
+                width: 50%;
+                justify-content:space-between;
+                text-align: center;
+                color: white;
+                 img{
+                        width: 100%;
+                } 
+                /* p{
+                        width: 80%;
+                }  */
+                h2{
+                        width: 100%;
+                        color: white;
+                }
+                p{
+                        width: 100%;
+                }
+                .img2{
+                        /* background-color: rgb(82, 79, 231); */
+                        /* text-align: center;
+                        display:inline-block;
+                        justify-content: center;
+                        align-items: center;*/
+                        text-align: center; 
+                        width: 30%;
+                        
+                        /* border: solid; */
+                        
+                        
+                        
+                        
+                }
+        }
+}
+.img2{
+        background-color: rgb(82, 79, 231);
+        text-align: center;
+        display:inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        border: solid;
+        color: white;
+        
+        
+        
+}
+.img2txt{
+        h2{
+                text-align: center;
+        color: white;
+        }
+        
+        
+}
+
+/* .rangee2droite>.img2>.img2txt>h2 +p{
+        text-align: center;
+        margin-left: 50% ;
+} */
+/* .rangee2droite>.img2>.img2txt>h2 {
+        text-align: center;
+        margin-left: 50% ;
+} */
+
